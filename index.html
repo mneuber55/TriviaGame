@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Game</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="row title-row">
+            <div class="col title-col">
+                <h1>Trivia With This Theme!!!</h1>
+            </div>
+        </div>
+        <div class="row timer-row">
+            <div class="col timer-col">
+                <div id="timer-space">
+                    <button id="start-button">Click me to start</button>
+                </div>
+            </div>
+        </div>
+
+        <form action="" onsubmit="validateForm(); return false">
+
+            <div class="row question">
+                <div class="col question-col">
+                    <h3>Question 1</h3>
+                    <fieldset class="fieldset">
+                        <input type="radio" name="Q1" value="A1"> Answer 1
+                        <input type="radio" name="Q1" value="A2"> Answer 2
+                        <input type="radio" name="Q1" value="A3"> Answer 3
+                        <input type="radio" name="Q1" value="A4"> Answer 4
+                    </fieldset>
+                </div>
+            </div>
+            <div class="row question">
+                <div class="col question-col">
+                    <h3>Question 2</h3>
+                    <fieldset class="fieldset">
+                        <input type="radio" name="Q2" value="A1"> Answer 1
+                        <input type="radio" name="Q2" value="A2"> Answer 2
+                        <input type="radio" name="Q2" value="A3"> Answer 3
+                        <input type="radio" name="Q2" value="A4"> Answer 4
+                    </fieldset>
+                </div>
+            </div>
+            <div class="row question">
+                <div class="col question-col">
+
+                    <h3>Question 3</h3>
+                    <fieldset class="fieldset">
+                        <input type="radio" name="Q3" value="A1"> Answer 1
+                        <input type="radio" name="Q3" value="A2"> Answer 2
+                        <input type="radio" name="Q3" value="A3"> Answer 3
+                        <input type="radio" name="Q3" value="A4"> Answer 4
+                    </fieldset>
+                </div>
+            </div>
+            <div class="row question">
+                <div class="col question-col">
+
+                    <h3>Question 4</h3>
+                    <fieldset class="fieldset">
+                        <input type="radio" name="Q4" value="A1"> Answer 1
+                        <input type="radio" name="Q4" value="A2"> Answer 2
+                        <input type="radio" name="Q4" value="A3"> Answer 3
+                        <input type="radio" name="Q4" value="A4"> Answer 4
+                    </fieldset>
+                </div>
+            </div>
+            <div class="row question">
+                <div class="col question-col">
+
+                    <h3>Question 5</h3>
+                    <fieldset class="fieldset">
+                        <input type="radio" name="Q5" value="A1"> Answer 1
+                        <input type="radio" name="Q5" value="A2"> Answer 2
+                        <input type="radio" name="Q5" value="A3"> Answer 3
+                        <input type="radio" name="Q5" value="A4"> Answer 4
+                    </fieldset>
+                </div>
+            </div>
+            <div class="row question">
+                <div class="col question-col">
+
+                    <h3>Question 6</h3>
+                    <fieldset class="fieldset">
+                        <input type="radio" name="Q6" value="A1"> Answer 1
+                        <input type="radio" name="Q6" value="A2"> Answer 2
+                        <input type="radio" name="Q6" value="A3"> Answer 3
+                        <input type="radio" name="Q6" value="A4"> Answer 4
+                    </fieldset>
+                </div>
+            </div>
+            <div class="row question">
+                <div class="col question-col">
+
+                    <h3>Question 7</h3>
+                    <fieldset class="fieldset">
+                        <input type="radio" name="Q7" value="A1"> Answer 1
+                        <input type="radio" name="Q7" value="A2"> Answer 2
+                        <input type="radio" name="Q7" value="A3"> Answer 3
+                        <input type="radio" name="Q7" value="A4"> Answer 4
+                    </fieldset>
+                </div>
+            </div>
+            <div class="row question">
+                <div class="col question-col">
+
+                    <h3>Question 8</h3>
+                    <fieldset class="fieldset">
+                        <input type="radio" name="Q8" value="A1"> Answer 1
+                        <input type="radio" name="Q8" value="A2"> Answer 2
+                        <input type="radio" name="Q8" value="A3"> Answer 3
+                        <input type="radio" name="Q8" value="A4"> Answer 4
+                    </fieldset>
+                </div>
+            </div>
+            <div class="row question">
+                <div class="col question-col">
+
+                    <h3>Question 9</h3>
+                    <fieldset class="fieldset">
+                        <input type="radio" name="Q9" value="A1"> Answer 1
+                        <input type="radio" name="Q9" value="A2"> Answer 2
+                        <input type="radio" name="Q9" value="A3"> Answer 3
+                        <input type="radio" name="Q9" value="A4"> Answer 4
+                    </fieldset>
+                </div>
+            </div>
+            <div class="row question">
+                <div class="col question-col">
+
+                    <h3>Question 10</h3>
+                    <fieldset class="fieldset">
+                        <input type="radio" name="Q10" value="A1"> Answer 1
+                        <input type="radio" name="Q10" value="A2"> Answer 2
+                        <input type="radio" name="Q10" value="A3"> Answer 3
+                        <input type="radio" name="Q10" value="A4"> Answer 4
+                    </fieldset>
+                </div>
+            </div>
+            <div class="row submit">
+                <div class="col submit-col">
+                    <input type="submit">
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+
+</html>
