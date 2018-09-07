@@ -1,0 +1,47 @@
+body {
+    background-image: url("../images/maps.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: azure;
+    font-weight: 500;
+}
+
+.title-col {
+    margin: 50px 0 20px 0;
+    font-family: 'Stardos Stencil', cursive;
+}
+
+#timer-space {
+    margin-bottom: 20px;
+}
+
+.fieldset-box {
+    background-color: rgb(20, 143, 119);
+    padding: 10px;
+    width: auto;
+    border-radius: 5px;
+    max-width: 600px;
+    border-style: solid;
+    border-color: #000;
+    border-width: 2px;
+}
+
+h3 {
+    margin: 15px;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+.answer-box {
+    padding: 0px;
+    float: left;
+    margin: 0 10px 0 10px;
+
+}
+
+.submit-col {
+    margin: 20px 0 100px 0;
+}

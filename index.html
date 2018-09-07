@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Stardos+Stencil:400,700" rel="stylesheet">
 
 </head>
 
@@ -21,13 +22,13 @@
 
         <div class="row title-row">
             <div class="col title-col">
-                <h1>Trivia With This Theme!!!</h1>
+                <h1>Where in the World are these Capitals???</h1>
             </div>
         </div>
         <div class="row timer-row">
             <div class="col timer-col">
                 <div id="timer-space">
-                    <button id="start-button">Click me to start</button>
+                    <button id="start-button">Start Quiz</button>
                 </div>
             </div>
         </div>
@@ -36,122 +37,137 @@
 
             <div class="row question">
                 <div class="col question-col">
-                    <h3>Question 1</h3>
-                    <fieldset class="fieldset">
-                        <input type="radio" name="Q1" value="A1"> Answer 1
-                        <input type="radio" name="Q1" value="A2"> Answer 2
-                        <input type="radio" name="Q1" value="A3"> Answer 3
-                        <input type="radio" name="Q1" value="A4"> Answer 4
-                    </fieldset>
+                    <h3>Buenos Aires</h3>
+                    <div class="fieldset-box">
+                        <fieldset class="fieldset">
+                            <div class="answer-box"><input class="answer" type="radio" name="Q1" value="no"> Brazil</div>
+                            <div class="answer-box"><input class="answer" type="radio" name="Q1" value="yes"> Argentina</div>
+                            <div class="answer-box"><input class="answer" type="radio" name="Q1" value="no"> Paraguay</div>
+                            <div class="answer-box"><input class="answer" type="radio" name="Q1" value="no"> Uruguay</div>
+                        </fieldset>
+                    </div>
                 </div>
             </div>
             <div class="row question">
                 <div class="col question-col">
-                    <h3>Question 2</h3>
-                    <fieldset class="fieldset">
-                        <input type="radio" name="Q2" value="A1"> Answer 1
-                        <input type="radio" name="Q2" value="A2"> Answer 2
-                        <input type="radio" name="Q2" value="A3"> Answer 3
-                        <input type="radio" name="Q2" value="A4"> Answer 4
-                    </fieldset>
+                    <h3>Minsk</h3>
+                    <div class="fieldset-box">
+                        <fieldset class="fieldset">
+                            <div class="answer-box"><input class="answer" type="radio" name="Q2" value="yes"> Belarus</div>
+                            <div class="answer-box"><input class="answer" type="radio" name="Q2" value="no"> Poland</div>
+                            <div class="answer-box"><input class="answer" type="radio" name="Q2" value="no"> Belgium</div>
+                            <div class="answer-box"><input class="answer" type="radio" name="Q2" value="no"> Romania</div>
+                        </fieldset>
+                    </div>
                 </div>
             </div>
             <div class="row question">
                 <div class="col question-col">
+                    <h3>Accra</h3>
+                    <div class="fieldset-box">
+                        <fieldset class="fieldset">
+                            <div class="answer-box"><input class="answer" type="radio" name="Q3" value="no"> Greece</div>
+                            <div class="answer-box"><input class="answer" type="radio" name="Q3" value="no"> Croatia</div>
+                            <div class="answer-box"><input class="answer" type="radio" name="Q3" value="yes"> Ghana</div>
+                            <div class="answer-box"><input class="answer" type="radio" name="Q3" value="no"> Venezuela</div>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+            <div class="row question">
+                <div class="col question-col">
+                    <h3>Khartoum</h3>
+                    <div class="fieldset-box">
+                        <fieldset class="fieldset">
+                            <div class="answer-box"><input class="answer" type="radio" name="Q4" value="no"> Egypt</div>
+                            <div class="answer-box"><input class="answer" type="radio" name="Q4" value="no"> Morocco</div>
+                            <div class="answer-box"><input class="answer" type="radio" name="Q4" value="yes"> Sudan</div>
+                            <div class="answer-box"><input class="answer" type="radio" name="Q4" value="no"> Libya</div>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+            <div class="row question">
+                <div class="col question-col">
+                    <h3>Beirut</h3>
+                    <div class="fieldset-box">
+                        <fieldset class="fieldset">
+                            <div class="answer-box"><input class="answer" type="radio" name="Q5" value="no"> Tunisia</div>
+                            <div class="answer-box"><input class="answer" type="radio" name="Q5" value="yes"> Lebanon</div>
+                            <div class="answer-box"><input class="answer" type="radio" name="Q5" value="no"> Yemen</div>
+                            <div class="answer-box"><input class="answer" type="radio" name="Q5" value="no"> Armenia</div>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+            <div class="row question">
+                <div class="col question-col">
+                    <h3>Kuala Lumpur</h3>
+                    <div class="fieldset-box">
+                        <fieldset class="fieldset">
+                            <div class="answer-box"><input class="answer" type="radio" name="Q6" value="no"> Micronesia</div>
+                            <div class="answer-box"><input class="answer" type="radio" name="Q6" value="no"> Laos</div>
+                            <div class="answer-box"><input class="answer" type="radio" name="Q6" value="no"> Vietnam</div>
+                            <div class="answer-box"><input class="answer" type="radio" name="Q6" value="yes"> Malaysia</div>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+            <div class="row question">
+                <div class="col question-col">
+                    <h3>Belgrade</h3>
+                    <div class="fieldset-box">
+                        <fieldset class="fieldset">
+                            <div class="answer-box"><input class="answer" type="radio" name="Q7" value="yes"> Serbia</div>
+                            <div class="answer-box"><input class="answer" type="radio" name="Q7" value="no"> Ukraine</div>
+                            <div class="answer-box"><input class="answer" type="radio" name="Q7" value="no"> Bulgaria</div>
+                            <div class="answer-box"><input class="answer" type="radio" name="Q7" value="no"> Kosovo</div>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+            <div class="row question">
+                <div class="col question-col">
+                    <h3>Budapest</h3>
+                    <div class="fieldset-box">
+                        <fieldset class="fieldset">
+                            <div class="answer-box"><input class="answer" type="radio" name="Q8" value="no"> Slovakia</div>
+                            <div class="answer-box"><input class="answer" type="radio" name="Q8" value="no"> Austria</div>
+                            <div class="answer-box"><input class="answer" type="radio" name="Q8" value="yes"> Hungary</div>
+                            <div class="answer-box"><input class="answer" type="radio" name="Q8" value="no"> Albania</div>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+            <div class="row question">
+                <div class="col question-col">
+                    <h3>Doha</h3>
+                    <div class="fieldset-box">
+                        <fieldset class="fieldset">
+                            <div class="answer-box"><input class="answer" type="radio" name="Q9" value="no"> Jordan</div>
+                            <div class="answer-box"><input class="answer" type="radio" name="Q9" value="yes"> Qatar</div>
+                            <div class="answer-box"><input class="answer" type="radio" name="Q9" value="no"> Oman</div>
+                            <div class="answer-box"><input class="answer" type="radio" name="Q9" value="no"> Djibuoti</div>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+            <div class="row question">
+                <div class="col question-col">
+                    <h3>Abu Dhabi</h3>
+                    <div class="fieldset-box">
+                        <fieldset class="fieldset">
+                            <div class="answer-box"><input class="answer" type="radio" name="Q10" value="no"> Saudi Arabia</div>
+                            <div class="answer-box"><input class="answer" type="radio" name="Q10" value="no"> Syria</div>
+                            <div class="answer-box"><input class="answer" type="radio" name="Q10" value="no"> Kuwait</div>
+                            <div class="answer-box"><input class="answer" type="radio" name="Q10" value="yes"> United Arab
+                                Emirates
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
 
-                    <h3>Question 3</h3>
-                    <fieldset class="fieldset">
-                        <input type="radio" name="Q3" value="A1"> Answer 1
-                        <input type="radio" name="Q3" value="A2"> Answer 2
-                        <input type="radio" name="Q3" value="A3"> Answer 3
-                        <input type="radio" name="Q3" value="A4"> Answer 4
-                    </fieldset>
-                </div>
-            </div>
-            <div class="row question">
-                <div class="col question-col">
-
-                    <h3>Question 4</h3>
-                    <fieldset class="fieldset">
-                        <input type="radio" name="Q4" value="A1"> Answer 1
-                        <input type="radio" name="Q4" value="A2"> Answer 2
-                        <input type="radio" name="Q4" value="A3"> Answer 3
-                        <input type="radio" name="Q4" value="A4"> Answer 4
-                    </fieldset>
-                </div>
-            </div>
-            <div class="row question">
-                <div class="col question-col">
-
-                    <h3>Question 5</h3>
-                    <fieldset class="fieldset">
-                        <input type="radio" name="Q5" value="A1"> Answer 1
-                        <input type="radio" name="Q5" value="A2"> Answer 2
-                        <input type="radio" name="Q5" value="A3"> Answer 3
-                        <input type="radio" name="Q5" value="A4"> Answer 4
-                    </fieldset>
-                </div>
-            </div>
-            <div class="row question">
-                <div class="col question-col">
-
-                    <h3>Question 6</h3>
-                    <fieldset class="fieldset">
-                        <input type="radio" name="Q6" value="A1"> Answer 1
-                        <input type="radio" name="Q6" value="A2"> Answer 2
-                        <input type="radio" name="Q6" value="A3"> Answer 3
-                        <input type="radio" name="Q6" value="A4"> Answer 4
-                    </fieldset>
-                </div>
-            </div>
-            <div class="row question">
-                <div class="col question-col">
-
-                    <h3>Question 7</h3>
-                    <fieldset class="fieldset">
-                        <input type="radio" name="Q7" value="A1"> Answer 1
-                        <input type="radio" name="Q7" value="A2"> Answer 2
-                        <input type="radio" name="Q7" value="A3"> Answer 3
-                        <input type="radio" name="Q7" value="A4"> Answer 4
-                    </fieldset>
-                </div>
-            </div>
-            <div class="row question">
-                <div class="col question-col">
-
-                    <h3>Question 8</h3>
-                    <fieldset class="fieldset">
-                        <input type="radio" name="Q8" value="A1"> Answer 1
-                        <input type="radio" name="Q8" value="A2"> Answer 2
-                        <input type="radio" name="Q8" value="A3"> Answer 3
-                        <input type="radio" name="Q8" value="A4"> Answer 4
-                    </fieldset>
-                </div>
-            </div>
-            <div class="row question">
-                <div class="col question-col">
-
-                    <h3>Question 9</h3>
-                    <fieldset class="fieldset">
-                        <input type="radio" name="Q9" value="A1"> Answer 1
-                        <input type="radio" name="Q9" value="A2"> Answer 2
-                        <input type="radio" name="Q9" value="A3"> Answer 3
-                        <input type="radio" name="Q9" value="A4"> Answer 4
-                    </fieldset>
-                </div>
-            </div>
-            <div class="row question">
-                <div class="col question-col">
-
-                    <h3>Question 10</h3>
-                    <fieldset class="fieldset">
-                        <input type="radio" name="Q10" value="A1"> Answer 1
-                        <input type="radio" name="Q10" value="A2"> Answer 2
-                        <input type="radio" name="Q10" value="A3"> Answer 3
-                        <input type="radio" name="Q10" value="A4"> Answer 4
-                    </fieldset>
-                </div>
-            </div>
             <div class="row submit">
                 <div class="col submit-col">
                     <input type="submit">
@@ -161,6 +177,7 @@
     </div>
 
     <script type="text/javascript" src="assets/javascript/app.js"></script>
+
 </body>
 
 
