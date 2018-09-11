@@ -1,4 +1,4 @@
-var timeVar = 6;
+var timeVar = 60;
 var resultsSet = [];
 var correctNum = 0;
 var wrongNum = 0;
